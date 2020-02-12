@@ -1,0 +1,112 @@
+body {
+background-color: rgb(200, 200, 200);
+color: white;
+font-family: Helvetica;
+font-weight: 40;
+font-size: 20px;
+text-align: center;
+}
+
+h1 {
+color: #832232;
+font-family: Chalkboard SE;
+font-size: 40px;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+h2 {
+color: rgb(220, 30, 100);
+font-family: Marker Felt;
+font-weight: 50;
+font-size: 35px;
+letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #832232;
+	font-family: Chalkboard SE;
+	width: 100px;
+}
+
+a:hover {
+color: grey;
+}
+
+.bigbox {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.container {
+	background: pink;
+	padding: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	border: 2px solid grey;
+	margin: 30px;
+}
+
+.container-logo {
+	background: pink;
+	padding: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	border: 2px solid grey;
+	margin: 30px;
+}
+
+.img-circle { 
+  border-radius: 50%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,1)
+ }
+
+@media (max-width: 960px) {
+.container {
+	text-align: center;
+   }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .container-logo {
+   	width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .container-logo {
+   	width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+   .container-logo {
+   	width: 300px;
+  }
+}
+
+
+.container-logo {
+font-size: 70px;
+letter-spacing: 20px;
+}
+
+.lewagon {
+	letter-spacing: 1px;
+	font-size: 22px;
+	color: #832232;
+	border-radius: 4px;
+}
+
